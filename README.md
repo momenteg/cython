@@ -6,5 +6,6 @@ It is designed as a template for future cython usage along with a template of a 
 
 Steps:
   1. run the bash script (that is taking care of the creation the docker image and runnig it, with the volume mounted)
+     example: ./docker_create_and_run.sh ubuntu_and_cython (where - ubuntu_and_cython - is the name of the docker image)
   2. inside the docker env: cd /home/; python cython_example.py
   
